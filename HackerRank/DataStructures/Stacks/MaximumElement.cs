@@ -20,7 +20,7 @@ namespace HackerRank.DataStructures.Stacks
                 this.curMax = curMax;
             }
 
-            public String ToString()
+            public new string ToString()
             {
                 return val + " [" + curMax + "]";
             }
